@@ -79,7 +79,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                return bc.Livros.Find(id);
+                return bc.Livros.Find(id);     
             }
         }
     }
