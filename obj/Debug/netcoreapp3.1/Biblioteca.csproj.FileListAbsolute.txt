@@ -51,3 +51,9 @@ C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreap
 C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\cadastroRealizado.cshtml.g.cs
+C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\editarUsuario.cshtml.g.cs
+C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ExcluirUsuário.cshtml.g.cs
+C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ListaDeUsuario.cshtml.g.cs
+C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\NeedAdmin.cshtml.g.cs
+C:\Users\Marcos Felipe\Desktop\atividade 1-Mantis\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\RegistrarUsuario.cshtml.g.cs

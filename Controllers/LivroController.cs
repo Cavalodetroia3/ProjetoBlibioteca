@@ -1,5 +1,7 @@
+using System;
 using Biblioteca.Models;
 using Microsoft.AspNetCore.Mvc;
+
 
 namespace Biblioteca.Controllers
 {
@@ -47,7 +49,7 @@ namespace Biblioteca.Controllers
                 objFiltro.TipoFiltro = tipoFiltro;
             }
             
-            ViewData["livrosPorPagina"] = (string.IsNullOrEmpty(itensPorPagina) ? 10 : Int32.Parse(itensPorPagina));
+            ViewData["livroPorPagina"] = (string.IsNullOrEmpty(itensPorPagina) ? 10 : Int32.Parse(itensPorPagina));
             ViewData["PaginaAtual"] = (PaginaAtual!=0 ? PaginaAtual :1);
 
             LivroService livroService = new LivroService();

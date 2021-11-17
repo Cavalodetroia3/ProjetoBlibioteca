@@ -22,7 +22,7 @@ namespace Biblioteca.Controllers
         {
             verificaSeUsuarioAdminExiste(bc);
 
-            senha = Criptografo.TestoCriptografia(senha);
+            senha = Criptografo.TextoCriptografado(senha);
 
             IQueryable<Usuario> UsuarioEncontrado = bc.usuarios.Where(u => u.login==login && u.senha==senha);
             List<Usuario>ListaUsuarioEncontrado = UsuarioEncontrado.ToList();
@@ -61,7 +61,7 @@ namespace Biblioteca.Controllers
         {
             if(!(controller.HttpContext.Session.GetInt32("tipo")==Usuario.ADMIN))
             {
-                controller.Request.HttpContext.Response.Redirect("/Usuarios/NeedAdmin");
+                controller.Request.HttpContext.Response.Redirect("/Usuario/NeedAdmin");
             }
         }
     
